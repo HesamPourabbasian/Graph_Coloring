@@ -74,15 +74,6 @@ K: 7
 
 ---
 
-## 🛠️ Future Improvements
-
-* 🧪 Add unit tests for corner cases
-* 📈 Benchmark performance on larger graphs
-* 🧠 Compare with other algorithms (e.g. DSATUR, Backtracking)
-* 🌐 Build a small web app with visualization using `D3.js` or `Plotly`
-
----
-
 ## 👨‍🎓 Author
 
 Made with ❤️ by **Hesam**
