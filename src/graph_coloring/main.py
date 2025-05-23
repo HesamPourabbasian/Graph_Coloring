@@ -35,7 +35,7 @@ for i in range(n_nodes):
 coloring_result = greedy_coloring(G)
 print("Coloring", coloring_result)
 print("Valid", is_valid_coloring(G, coloring_result))
-print("K", len(set(coloring_result.values())))
+print("Color Numbers", len(set(coloring_result.values())))
 
 color_map = [coloring_result[node] for node in G.nodes()]
 nx.draw(G, node_color=color_map, with_labels=True, font_weight='bold')
